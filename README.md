@@ -35,5 +35,21 @@ search by name, add items to a cart, and manage their cart.
 
 ---
 
+### 3. Command Engine (Console Commands)
+📂 `location: oop/command_engine/`
+
+A console-based command engine built to practice command routing and project structure.
+This project was created as preparation for building Telegram bots in the future.
+
+**Concepts used:**
+- command registry
+- decorators
+- command routing
+- dictionary-based architecture
+- error handling
+- user input parsing
+
+---
+
 ## 📌 Notes
 This is a learning repository. Code may be refactored and improved as I continue studying Python.

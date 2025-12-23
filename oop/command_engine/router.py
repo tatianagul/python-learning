@@ -9,6 +9,3 @@ def route_command(command_name, args):
 
     command_func = commands[command_name]["function"]
     command_func(args)
-
-
-print(get_commands())
