@@ -20,7 +20,7 @@ def main():
             break
 
         if not user_input.startswith("/"):
-            print("Commands must start with "/"")
+            print('Commands must start with "/"')
             continue
 
         parts = user_input[1:].split()
