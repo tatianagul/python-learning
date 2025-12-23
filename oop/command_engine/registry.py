@@ -10,3 +10,6 @@ def register_command(name, func, description=""):
 
 def get_commands():
     return COMMAND_REGISTRY
+
+
+print(COMMAND_REGISTRY)
