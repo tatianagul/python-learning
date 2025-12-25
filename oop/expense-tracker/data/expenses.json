@@ -1,1 +1,9 @@
-[]
+[
+ {
+  "name": "coffee with Sarah",
+  "category": "food",
+  "amount": 100,
+  "date": "13.12.2025",
+  "notes": ""
+ }
+]
