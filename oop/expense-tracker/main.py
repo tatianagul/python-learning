@@ -1,33 +1,28 @@
-import json
 from pathlib import Path
 from models.expense import Expense
 
+from data_io import load_file, save_expenses
+from expense_converter import convert_to_dict, convert_to_expense
+
 main_file = Path("oop/expense-tracker/data/expenses.json")
 
-if main_file.exists():
-    with open(main_file, "r") as file:
-        expenses = json.load(file)
-else:
-    with open(main_file, "w") as file:
-        expenses = []
-        json.dump(expenses, file)
+# LOAD DATA
 
-expenses_list = []
+expenses_data = load_file(main_file)
 
-for item in expenses:
-    expense = Expense(**item)
-    expenses_list.append(expense)
+# CONVERT DATA TO EXPENSE
+
+expenses_list = convert_to_expense(expenses_data)
 
 
+# add function
 new_expense = Expense("coffee with Sarah", "food", 100, "13.12.2025", "")
 
 expenses_list.append(new_expense)
 
-expenses_data = []
+# CONVERT EXPENSES TO DATA
+expenses_data = convert_to_dict(expenses_list)
 
-for exp in expenses_list:
-    expenses_data.append(exp.to_dict())
+# SAVE DATA
 
-
-with open(main_file, "w") as file:
-    json.dump(expenses_data, file, indent=1)
+save_expenses(expenses_data, main_file)
