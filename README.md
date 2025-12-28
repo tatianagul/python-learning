@@ -51,5 +51,23 @@ This project was created as preparation for building Telegram bots in the future
 
 ---
 
+### 4. Expense Tracker (Console Application)
+📂 `location: oop/expense-tracker/`
+
+A console-based expense tracker built while learning file handling and basic application architecture in Python.
+
+This project focuses on working with persistent data and structuring a small but complete console application.
+
+**Concepts used:**
+- JSON data storage
+- file handling and error handling
+- CSV export
+- ZIP backups
+- pathlib
+- modular project structure
+- interactive console menu
+
+---
+
 ## 📌 Notes
 This is a learning repository. Code may be refactored and improved as I continue studying Python.
