@@ -13,7 +13,6 @@ expenses_data = load_file(DATA_FILE)
 # CONVERT DATA TO EXPENSE
 expenses_list = convert_to_expense(expenses_data)
 
-
 # ADD EXPENSE
 new_expense = expense_input()
 add_expense(expenses_list, new_expense)

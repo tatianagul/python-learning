@@ -1,7 +1,7 @@
 from decorators import dec_command
 
 
-@dec_command("calc", "Calculete simple expression (e.g. 2+3*4)")
+@dec_command("calc", "Calculate simple expression (e.g. 2+3*4)")
 def calc_cmd(args):
     if not args:
         print("Usage: /calc <expression>")
