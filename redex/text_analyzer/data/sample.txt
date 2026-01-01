@@ -1,0 +1,47 @@
+Hello!
+
+You can contact us via email: support@example.com.
+For urgent issues write to admin.test@mail.co.uk or sales-info@my-company.io
+
+⚠️ Note: this email (fake@mail) is invalid and should NOT be detected.
+
+Phone numbers:
++90 555 123 45 67
++7(999)123-45-67
+0049 151 23456789
+(555)1234567
+555-123-4567
+5551234567
+
+Some random numbers that are NOT phones:
+12345
+2024-999-888
+
+Dates:
+12.03.2024
+01/01/23
+2025-07-19
+19-07-2025
+Date: 3.7.24
+
+Websites and links:
+https://example.com
+http://sub.domain.co.uk/path?query=123
+www.google.com
+example.org
+ftp://files.example.net
+
+Broken or incomplete links:
+http:/example
+www.example
+example,com
+
+Repeated emails:
+support@example.com
+support@example.com
+
+Mixed text:
+Send feedback to feedback@site.com before 10.10.2024 or visit https://feedback.site.com.
+Call +90-555-000-00-00 if no response.
+
+End of file.
