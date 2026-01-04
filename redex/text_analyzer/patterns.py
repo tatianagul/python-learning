@@ -1,2 +1,5 @@
 email_pattern = r"[a-zA-Z0-9_.]+@[a-zA-Z0-9-.]+\.[a-zA-Z]+"
 phone_pattern = r"(?<!\d)(?:\+?\d{1,4})?[ \-()]?(?:\d{2,4})[ \-()]?(?:\d{2,4})[ \-()]?(?:\d{2,4})(?!\d)"
+date_pattern_ymd = r"\b\d{4}[./-]\d{2}[./-]\d{2}\b"
+date_pattern_dmy = r"\b\d{2}[./-]\d{2}[./-]\d{4}\b"
+url_pattern = r"\b(?:https?://|www\.)[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:/[^\s]*)?\b"

@@ -1,7 +1,8 @@
 from pathlib import Path
+from datetime import datetime
 import re
 
-from patterns import email_pattern, phone_pattern
+from patterns import email_pattern, phone_pattern, date_pattern_ymd, date_pattern_dmy, url_pattern
 
 
 def extract_emails(text_file: Path):
@@ -52,3 +53,26 @@ def extract_phones(text_file: Path):
                 if is_valid_phone(normalized):
                     phone_list.add(normalized)
     return sorted(phone_list)
+
+
+def extract_dates(text_file: Path):
+    date_list = set()
+    with text_file.open("r", encoding="utf-8") as file:
+        for line in file:
+            matches = re.findall(date_pattern_ymd, line)
+            for date in matches:
+                date_list.add(date)
+            matches = re.findall(date_pattern_dmy, line)
+            for date in matches:
+                date_list.add(date)
+    return sorted(date_list)
+
+
+def extract_urls(text_file: Path):
+    url_list = set()
+    with text_file.open("r", encoding="utf-8") as file:
+        for line in file:
+            matches = re.findall(url_pattern, line)
+            for url in matches:
+                url_list.add(url)
+    return sorted(url_list)
