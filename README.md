@@ -69,5 +69,21 @@ This project focuses on working with persistent data and structuring a small but
 
 ---
 
+### 5. Text Analyzer (Regex Project)
+📂 `location: regex/text-analyzer/`
+
+A console-based text analyzer built to practice working with regular expressions and text processing in Python.
+
+This project focuses on extracting structured data from raw text and organizing the logic in a clean, modular way.
+
+**Concepts used:**
+- regular expressions (`re`)
+- file reading with `pathlib`
+- data extraction and normalization
+- validation logic
+- modular project structure
+
+---
+
 ## 📌 Notes
 This is a learning repository. Code may be refactored and improved as I continue studying Python.
