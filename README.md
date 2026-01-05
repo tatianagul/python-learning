@@ -20,7 +20,7 @@ A simple object-oriented project that simulates a bank account.
 ---
 
 ### 2. Online Store (Console App, OOP)
-📂 `location: online_store/`
+📂 `location: mini-projects/online_store/`
 
 A console-based online store simulation where users can browse products,
 search by name, add items to a cart, and manage their cart.
@@ -36,7 +36,7 @@ search by name, add items to a cart, and manage their cart.
 ---
 
 ### 3. Command Engine (Console Commands)
-📂 `location: oop/command_engine/`
+📂 `location: mini-projects/command_engine/`
 
 A console-based command engine built to practice command routing and project structure.
 This project was created as preparation for building Telegram bots in the future.
@@ -52,7 +52,7 @@ This project was created as preparation for building Telegram bots in the future
 ---
 
 ### 4. Expense Tracker (Console Application)
-📂 `location: oop/expense-tracker/`
+📂 `location: mini-projects/expense-tracker/`
 
 A console-based expense tracker built while learning file handling and basic application architecture in Python.
 
@@ -70,7 +70,7 @@ This project focuses on working with persistent data and structuring a small but
 ---
 
 ### 5. Text Analyzer (Regex Project)
-📂 `location: regex/text-analyzer/`
+📂 `location: mini-projects/text-analyzer/`
 
 A console-based text analyzer built to practice working with regular expressions and text processing in Python.
 
